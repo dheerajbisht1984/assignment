@@ -1,0 +1,24 @@
+       ********** Prerequisite***********
+Node version(6 and above)
+MYSQL DB
+
+Go to folder /TODO/toDoApi/ and execute command 'npm install'
+(1) Create a database name 'todoappdb' in mysql db.
+(2) Go to files /TODO/toDoApi/server/datasources.json
+(3) Change the MYSQL username and password
+(4) Go to directory /TODO/toDoApi/ and run command 'node server/create-lb-table.js'
+(5) Above command will create the table automatically in above given database.
+(6) Go to directory /TODO/toDoApi/ and run command 'node .'. It will start the Node in backend for REST API's.
+(7) Go to directory /TODO/toDoApp/ and run command 'ng serve -o'.
+(8) It will open the Angular 4 application in browser
+
+
+
+
+
+************Technology Used*************
+
+Anhular 4 ---> For Front End
+Node (Loopback) ------> For Rest API's
+MYSQL ------> For storing data
+HTML,CSS

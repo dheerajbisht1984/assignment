@@ -1,0 +1,19 @@
+  <div id="myDIV" class="header">
+  <h2>My To Do List</h2>
+  <input type="text"  #todoname placeholder="Enter To Do List...">
+  <span (click)="addToDoList(todoname.value)" class="addBtn">Add</span>
+</div>
+<ng-container  *ngIf="listexist;else nodata">
+<ul id="myUL">
+  <li *ngFor="let list of alllist">{{list.name}}<span class="close" (click)="removeToDoList(list.id)" >×</span>
+  <span class="btn btn-info btn-sm" *ngIf="list.status==0"  (click)="markAsRead(list.id)">Mark as Read</span>
+  <span class="btn btn-primary btn-sm" *ngIf="list.status==0" >Pending</span>
+  <span class="btn btn-success btn-sm" *ngIf="list.status==1" >Completed</span>
+  </li>
+ 
+</ul>  
+</ng-container>
+
+<ng-template #nodata>
+   <div class="alert alert-info">No Data Available</div>
+</ng-template>

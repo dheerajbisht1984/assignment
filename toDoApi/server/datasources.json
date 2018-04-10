@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "todoapp": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "todoappdb",
+    "password": "EDU23*EXM23",
+    "name": "todoapp",
+    "user": "root",
+    "connector": "mysql"
+  }
+}
