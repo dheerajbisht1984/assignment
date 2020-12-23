@@ -49,7 +49,7 @@
     "ngx-slimscroll": "^3.7.0",
     "popper.js": "^1.12.9",
     "rxjs": "^5.4.2",
-    "zone.js": "^0.8.14"
+    "zone.js": "^0.11.3"
   },
   "devDependencies": {
     "@angular/cli": "^1.6.1",
