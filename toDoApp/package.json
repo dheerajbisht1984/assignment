@@ -28,7 +28,7 @@
     "@types/jquery": "^3.2.17",
     "angular-popper": "^1.0.0-beta-1",
     "angular4-carousel": "^3.1.8",
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^5.0.0",
     "bootstrap-fileinput": "^4.4.7",
     "bootstrap-fileinput-npm": "^4.2.8",
     "bourbon": "^5.0.0",
